@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pepsi | Aprenda Aqui</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  
+  <!-- Home Page -->
+  <section class="home" style="background:var(--color001)">
+    
+    <!-- Menu -->
+    <header>
+      <img src="imagens/logo.png" alt="">
+      <nav>
+        <a href="#">início</a>
+        <a href="#">produtos</a>
+        <a href="#">novidades</a>
+        <a href="#">noticias</a>
+        <a href="#">contato</a>
+      </nav>
+      <i class='bx bx-menu'></i>
+    </header>
+
+    <!-- Content -->
+    <div class="content">
+      
+      <div class="boxText">
+        <h1>isso que<br><span>eu gosto</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, nobis quidem quas debitis dolor distinctio fuga praesentium voluptate sint corporis sit perspiciatis tempora molestiae in non optio. Quibusdam sequi sint rem cupiditate modi ratione voluptate?
+        </p>
+        <a href="#" class="btn">veja os novos produtos</a>
+      </div>
+
+      <div class="boxImg">
+        <img src="imagens/pepsi001.png" class="image">
+      </div>
+
+    </div>
+
+    <!-- Dots -->
+    <div class="dots">
+      <img src="imagens/pepsi001.png" class="active" onclick="bgImg(this.src, 'var(--color001)')">
+      <img src="imagens/pepsi002.png" onclick="bgImg(this.src, 'var(--color002)')">
+      <img src="imagens/pepsi003.png" onclick="bgImg(this.src, 'var(--color003)')">
+    </div>
+
+  </section>
+
+<!-- Script -->
+<script src="script.js"></script>
+</body>
+</html>
